@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaWhatsapp, FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa';
+import { FaWhatsapp, FaInstagram, FaTiktok, FaYoutube, FaEnvelope } from 'react-icons/fa';
 
 const Kontak = () => {
   return (
@@ -21,12 +21,16 @@ const Kontak = () => {
             <a href="tel:+622188979052" className="text-primary hover:underline text-lg">(021) 88979052</a>
           </div>
           <div className="mb-6">
+            <h3 className="text-2xl font-bold text-heading-dark mb-2">Email</h3>
+            <a href="mailto:annajm.bekasiutara@gmail.com" className="text-primary hover:underline text-lg">annajm.bekasiutara@gmail.com</a>
+          </div>
+          <div className="mb-6">
             <h3 className="text-2xl font-bold text-heading-dark mb-2">Media Sosial</h3>
             <div className="flex space-x-4">
               <a href="https://wa.me/6281290547487" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-blue-700 transition-colors duration-300"><FaWhatsapp className="h-8 w-8" /></a>
-              <a href="https://instagram.com/annajm_bekasiutara" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-blue-700 transition-colors duration-300"><FaInstagram className="h-8 w-8" /></a>
-              <a href="#" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-blue-700 transition-colors duration-300"><FaTiktok className="h-8 w-8" /></a>
-              <a href="#" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-blue-700 transition-colors duration-300"><FaYoutube className="h-8 w-8" /></a>
+              <a href="https://www.instagram.com/annajm_bekasiutara?igsh=MXdla2pyajBibXg4dA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-blue-700 transition-colors duration-300"><FaInstagram className="h-8 w-8" /></a>
+              <a href="https://www.tiktok.com/@raannajm?_t=ZS-8yYrQ6Lzhys&_r=1" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-blue-700 transition-colors duration-300"><FaTiktok className="h-8 w-8" /></a>
+              <a href="https://youtube.com/@annajmbekasiutara?feature=shared" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-blue-700 transition-colors duration-300"><FaYoutube className="h-8 w-8" /></a>
             </div>
           </div>
         </div>

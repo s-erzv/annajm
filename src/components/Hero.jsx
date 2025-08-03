@@ -23,9 +23,9 @@ const Hero = () => {
            
           <div className="md:w-1/2">
             <img 
-              src="https://picsum.photos/800/600" 
+              src="./hero.jpg" 
               alt="Anak-anak belajar di TK An Najm" 
-              className="rounded-2xl shadow-lg w-full" 
+              className="rounded-2xl shadow-lg w-full " 
             />
           </div>
         </div>

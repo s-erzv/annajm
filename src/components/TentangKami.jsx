@@ -6,7 +6,7 @@ const TentangKami = () => {
       <div className="flex flex-col md:flex-row gap-12 items-center"> 
         <div className="md:w-1/2 order-2 md:order-1">
           <img 
-            src="https://picsum.photos/id/1018/800/600" 
+            src="./about.png" 
             alt="Anak-anak sedang belajar" 
             className="rounded-2xl shadow-lg w-full"
           />

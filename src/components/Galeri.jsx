@@ -2,12 +2,12 @@ import React from 'react';
 
 const Galeri = () => { 
   const galleryImages = [
-    "https://picsum.photos/id/10/500/500",
-    "https://picsum.photos/id/20/500/500",
-    "https://picsum.photos/id/30/500/500",
-    "https://picsum.photos/id/40/500/500",
-    "https://picsum.photos/id/50/500/500",
-    "https://picsum.photos/id/60/500/500",
+    "/activity.png",
+    "/activity6.png",
+    "/activity9.png",
+    "/activity3.png",
+    "/activity1.png",
+    "/activity4.png",
   ];
 
   return (
@@ -19,7 +19,7 @@ const Galeri = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {galleryImages.map((imageUrl, index) => (
             <div key={index} className="rounded-lg overflow-hidden shadow-md transform hover:scale-105 transition-transform duration-300">
-              <img src={imageUrl} alt={`Kegiatan TK An Najm ${index + 1}`} className="w-full h-64 object-cover" />
+              <img src={imageUrl} alt={`Kegiatan TK An Najm ${index + 1}`} className="w-full h-[270px] object-cover" />
             </div>
           ))}
         </div>

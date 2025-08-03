@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import ProgramPage from './pages/ProgramPage';
 import PPDBPage from './pages/PPDBPage';
-//import ArtikelPage from './pages/ArtikelPage';
+import ArtikelPage from './pages/ArtikelPage';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/program" element={<ProgramPage />} />
             <Route path="/ppdb" element={<PPDBPage />} />
-            {/* <Route path="/artikel" element={<ArtikelPage />} /> */}
+            <Route path="/artikel" element={<ArtikelPage />} />
           </Routes>
         </main>
         <Footer />

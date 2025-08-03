@@ -13,7 +13,7 @@ const Header = () => {
           <Link to="/">
             <img src={LogoAnNajm} alt="Logo RA An-Najm" className="h-12" />
           </Link>
-          <h1 className="hidden md:block text-xl font-bold text-heading-dark">RA An-Najm Bekasi Utara</h1>
+          <h1 className="md:block text-xl font-bold text-heading-dark">RA An-Najm Bekasi Utara</h1>
         </div>
 
         <div className="flex items-center space-x-6">

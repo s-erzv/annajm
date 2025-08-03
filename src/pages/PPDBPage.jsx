@@ -14,7 +14,7 @@ const PPDBPage = () => {
           </h1>
           <p className="text-lg text-text-base max-w-3xl mx-auto">
             Selamat datang calon peserta didik baru. Kami mengundang Bapak/Ibu untuk bergabung
-            dengan keluarga besar TK An Najm. Silakan temukan informasi lengkap mengenai
+            dengan keluarga besar RA An-Najm. Silakan temukan informasi lengkap mengenai
             persyaratan dan prosedur pendaftaran di bawah ini.
           </p>
         </div>
@@ -27,7 +27,7 @@ const PPDBPage = () => {
               <FaWhatsapp className="h-8 w-8 text-primary mt-1" />
               <div>
                 <h3 className="text-xl font-bold text-heading-dark">1. Hubungi Kami</h3>
-                <p className="text-text-base text-sm mt-1">Hubungi kami melalui WhatsApp untuk mendapatkan informasi dan formulir pendaftaran.</p>
+                <p className="text-text-base text-sm mt-1">Hubungi kami melalui WhatsApp untuk mendapaRAan informasi dan formulir pendaftaran.</p>
               </div>
             </div>
             <div className="bg-gray-100 p-6 rounded-lg shadow-md flex items-start space-x-4">

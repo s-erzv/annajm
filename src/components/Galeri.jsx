@@ -19,7 +19,7 @@ const Galeri = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {galleryImages.map((imageUrl, index) => (
             <div key={index} className="rounded-lg overflow-hidden shadow-md transform hover:scale-105 transition-transform duration-300">
-              <img src={imageUrl} alt={`Kegiatan TK An Najm ${index + 1}`} className="w-full h-[270px] object-cover" />
+              <img src={imageUrl} alt={`Kegiatan RA An-Najm ${index + 1}`} className="w-full h-[270px] object-cover" />
             </div>
           ))}
         </div>

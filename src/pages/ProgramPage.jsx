@@ -9,7 +9,7 @@ const ProgramPage = () => {
           Program Pembelajaran Kami
         </h1>
         <p className="text-lg text-text-base mb-12 max-w-3xl mx-auto text-center">
-          Program pendidikan di TK An Najm dirancang untuk mengembangkan potensi anak secara holistik, mencakup aspek akidah, akhlak, kognitif, motorik, bahasa, dan sosial emosional, dengan landasan Al-Qur'an dan As-Sunnah.
+          Program pendidikan di RA An-Najm dirancang untuk mengembangkan potensi anak secara holistik, mencakup aspek akidah, akhlak, kognitif, motorik, bahasa, dan sosial emosional, dengan landasan Al-Qur'an dan As-Sunnah.
         </p>
         <Program /> 
       </div>

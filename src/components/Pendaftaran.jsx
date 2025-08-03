@@ -2,10 +2,9 @@ import React from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const Pendaftaran = () => {
-  const primaryPhone = "6281290547487";
-  const secondaryPhone = "62811914241";
+  const primaryPhone = "6285717792916";
   
-  const whatsappLink = `https://wa.me/${primaryPhone}?text=Assalamualaikum%2C%20saya%20tertarik%20untuk%20mendaftarkan%20anak%20saya%20di%20TK%20An%20Najm.%20Mohon%20informasi%20selanjutnya.`;
+  const whatsappLink = `https://wa.me/${primaryPhone}?text=Assalamualaikum%2C%20saya%20tertarik%20untuk%20mendaftarkan%20anak%20saya%20di%20RA%20An%20Najm.%20Mohon%20informasi%20selanjutnya.`;
 
   return (
     <section id="pendaftaran" className="bg-white py-16">
@@ -34,7 +33,7 @@ const Pendaftaran = () => {
         
         <p className="text-lg text-text-base mb-2">Atau hubungi kami melalui telepon:</p>
         <p className="text-lg font-bold text-primary">
-          <a href={`tel:${primaryPhone}`} className="hover:underline">{primaryPhone}</a> | <a href={`tel:${secondaryPhone}`} className="hover:underline">{secondaryPhone}</a>
+          <a href={`tel:${primaryPhone}`} className="hover:underline">{primaryPhone}</a>
         </p>
       </div>
     </section>

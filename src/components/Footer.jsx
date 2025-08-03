@@ -17,7 +17,7 @@ const Footer = () => {
             </p>
             <div className="flex justify-center md:justify-start space-x-4 mt-6">
               <a 
-                href="https://wa.me/6281290547487" 
+                href="https://wa.me/6285717792916" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 aria-label="WhatsApp"

@@ -10,7 +10,7 @@ const Hero = () => {
               Mendidik Generasi Saleh <br /> dan Cerdas Sejak Dini
             </h1>
             <p className="text-lg md:text-xl text-text-base mb-8">
-              TK An Najm berkomitmen menanamkan nilai-nilai Islam dengan manhaj salaf,
+              RA An-Najm berkomitmen menanamkan nilai-nilai Islam dengan manhaj salaf,
               menciptakan lingkungan belajar yang aman dan penuh kasih sayang.
             </p>
             <a
@@ -24,8 +24,8 @@ const Hero = () => {
           <div className="md:w-1/2">
             <img 
               src="./hero.jpg" 
-              alt="Anak-anak belajar di TK An Najm" 
-              className="rounded-2xl shadow-lg w-full " 
+              alt="Anak-anak belajar di RA An-Najm" 
+              className="rounded-2xl shadow-lg w-full" 
             />
           </div>
         </div>

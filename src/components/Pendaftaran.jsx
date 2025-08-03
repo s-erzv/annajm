@@ -2,8 +2,8 @@ import React from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const Pendaftaran = () => {
-  const primaryPhone = "081290547487";
-  const secondaryPhone = "0811914241";
+  const primaryPhone = "6281290547487";
+  const secondaryPhone = "62811914241";
   
   const whatsappLink = `https://wa.me/${primaryPhone}?text=Assalamualaikum%2C%20saya%20tertarik%20untuk%20mendaftarkan%20anak%20saya%20di%20TK%20An%20Najm.%20Mohon%20informasi%20selanjutnya.`;
 

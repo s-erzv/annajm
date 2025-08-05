@@ -18,7 +18,7 @@ const Kontak = () => {
           </div>
           <div className="mb-6">
             <h3 className="text-2xl font-bold text-heading-dark mb-2">Telepon/Fax</h3>
-            <a href="tel:+622188979052" className="text-primary hover:underline text-lg">(021) 88979052</a>
+            <a href="tel:+622188979052" className="text-primary hover:underline text-lg">+62 857-1779-2916</a>
           </div>
           <div className="mb-6">
             <h3 className="text-2xl font-bold text-heading-dark mb-2">Email</h3>

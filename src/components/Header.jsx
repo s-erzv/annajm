@@ -7,18 +7,18 @@ const Header = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <header className="bg-white shadow-md sticky top-0 z-50">
+    <header className="bg-white border-b sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex-shrink-0 flex items-center space-x-4">
           <Link to="/">
             <img src={LogoAnNajm} alt="Logo RA An-Najm" className="h-12" />
           </Link>
-          <h1 className="text-lg md:block md:text-xl font-bold text-heading-dark">RA An-Najm Bekasi Utara</h1>
+          <h1 className="text-sm md:block md:text-lg font-bold text-heading-dark">RA An-Najm Bekasi Utara</h1>
         </div>
 
         <div className="flex items-center space-x-6">
           <nav className="hidden md:block">
-            <ul className="flex space-x-6">
+            <ul className="flex space-x-6 sm:space-x-2">
               <li><Link to="/" className="text-text-base hover:text-primary font-medium transition duration-300">Home</Link></li>
               <li><Link to="/program" className="text-text-base hover:text-primary font-medium transition duration-300">Program</Link></li>
               <li><Link to="/ppdb" className="text-text-base hover:text-primary font-medium transition duration-300">PPDB</Link></li>
@@ -27,7 +27,7 @@ const Header = () => {
           </nav>
           <Link
             to="/ppdb"
-            className="bg-primary hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full shadow-lg transition duration-300 transform hover:scale-105 hidden md:block"
+            className="bg-primary hover:bg-blue-700 text-sm text-white font-bold py-2 px-6 rounded-full shadow-lg transition duration-300 transform hover:scale-105 hidden md:block"
           >
             Daftar Sekarang
           </Link>

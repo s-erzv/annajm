@@ -87,9 +87,9 @@ const Footer = () => {
           <div className="md:col-span-1">
             <h4 className="text-lg font-semibold text-white mb-4">Hubungi Kami</h4>
             <p className="text-sm">
-              Email: info@ra-annajm.sch.id
+              Email: annajm.bekasiutara@gmail.com
               <br/>
-              Telepon: +62 812-3456-7890
+              Telepon: +62 857-1779-2916
             </p>
           </div>
         </div>
